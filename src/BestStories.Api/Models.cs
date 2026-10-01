@@ -26,6 +26,6 @@ public sealed class HackerNewsOptions
     public string BaseUrl { get; set; } = string.Empty;
     public TimeSpan RefreshInterval { get; set; } 
     public TimeSpan InitialLoadTimeout { get; set; } 
-    public int MaxConcurrency { get; set; } = 16;
-    public int BestStoryLimit { get; set; } = 500;
+    public int MaxConcurrency { get; set; } 
+    public int BestStoryLimit { get; set; } 
 }
